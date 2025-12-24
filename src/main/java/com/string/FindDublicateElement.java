@@ -108,8 +108,16 @@ public class FindDublicateElement {
 }	
 	public static  void m8() {
 		System.out.println("Hi I AM Mangesh");
+    	System.out.println("Smita");
 
 	}
+		
+	
+		
+	  
+		
+}	
+	
 }
 
 
