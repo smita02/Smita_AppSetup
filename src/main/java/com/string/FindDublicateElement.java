@@ -22,8 +22,8 @@ public class FindDublicateElement {
 				
 				
 			}
-			if(count>1) {
-//				System.out.println(arr[i]);
+			if(count>=1) {
+				System.out.println(arr[i]);
 			}
 		}
 		
@@ -64,28 +64,29 @@ public class FindDublicateElement {
 		
 	}
 	public static void main(String[] args) {
+		logic1();
 //		logic2();
 //		logic3();
 		
-		int arr[] = {34, 89, 99, 39, 99, 39, 99, 99, 99, 99};
-
-		LinkedHashMap<Integer, Integer> map = new LinkedHashMap<>();
-
-		// Step 1: Count frequency
-		for (int a : arr) {
-		    if (map.containsKey(a)) {
-		        map.put(a, map.get(a) + 1);
-		    } else {
-		        map.put(a, 1);
-		    }
-		}
-
-		// Step 2: Print duplicates
-		for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-		    if (entry.getValue() > 1) {
-		        System.out.println(entry.getKey() + " - " + entry.getValue());
-		    }
-		}
+//		int arr[] = {34, 89, 99, 39, 99, 39, 99, 99, 99, 99};
+//
+//		LinkedHashMap<Integer, Integer> map = new LinkedHashMap<>();
+//
+//		// Step 1: Count frequency
+//		for (int a : arr) {
+//		    if (map.containsKey(a)) {
+//		        map.put(a, map.get(a) + 1);
+//		    } else {
+//		        map.put(a, 1);
+//		    }
+//		}
+//
+//		// Step 2: Print duplicates
+//		for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+//		    if (entry.getValue() > 1) {
+//		        System.out.println(entry.getKey() + " - " + entry.getValue());
+//		    }
+//		}
 	}
 	
 	public static void m3() {
