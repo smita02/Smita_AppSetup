@@ -104,8 +104,13 @@ public class FindDublicateElement {
 	
 	}
 		System.out.println("addition of array:"+sum);
-	    
-}		
+		
+		System.out.println("Smita");
+		
+	  
+		
+}	
+	
 }
 
 
