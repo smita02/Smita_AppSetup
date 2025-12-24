@@ -105,7 +105,11 @@ public class FindDublicateElement {
 	}
 		System.out.println("addition of array:"+sum);
 	    
-}		
+}	
+	public static  void m8() {
+		System.out.println("Hi I AM Mangesh");
+
+	}
 }
 
 
