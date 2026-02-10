@@ -7,6 +7,8 @@ import java.util.Set;
 
 public class FindDublicateElement {
 	public static void logic1() {
+		
+		System.out.println("Smita Hack");
 		int arr[] = {34,89, 99,39, 99, 39,99,99,99,99};
 		for (int i = 0; i < arr.length; i++) {
 			if(arr[i]==0) {
